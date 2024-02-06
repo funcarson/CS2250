@@ -8,7 +8,7 @@ int main() {
 	string name;
 	string age;
 	string gpa;
-	string schoolName;
+	string schoolName; 
 
 
 	//Prompts the user for there name and stores it in name var
