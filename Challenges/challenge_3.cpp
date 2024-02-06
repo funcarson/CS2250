@@ -18,7 +18,7 @@ int main() {
 
     // Loop until a negative number is entered
     do {
-        userInput = userInteger();
+        userInput = PromptForInteger();
 
         //Adds only positive numbers to the total
         if (userInput >= 0) {
@@ -32,10 +32,10 @@ int main() {
     return 0;
 }//End of main
 
-//start of user integer
-int userInteger() {
+//start of PromptForInteger
+int PromptForInteger() {
     int userValue;
     cout << "Please enter an integer: ";
     cin >> userValue;
     return userValue;
-}//End of userInteger
+}//End of PromptForInteger
